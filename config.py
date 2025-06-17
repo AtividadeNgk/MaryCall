@@ -1,7 +1,7 @@
 import os
 
 # 🔥 PRODUÇÃO: Usar variáveis de ambiente
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7564123816:AAEZM6NTqXL_BwAtoN-VRDA4x9j3nMRmiPs")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7564123816:AAHrSHl_usmd_tdB3Qdr0qFDoazHROUGjUM")
 CANAL_ADMIN_ID = os.getenv("CANAL_ADMIN_ID", "-1002313875940")
 LINK_CHAMADA = os.getenv("LINK_CHAMADA", "https://pixel-video-call.vercel.app/purchase.html")
 
