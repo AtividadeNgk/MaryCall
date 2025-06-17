@@ -6,7 +6,7 @@ CANAL_ADMIN_ID = os.getenv("CANAL_ADMIN_ID", "-1002313875940")
 LINK_CHAMADA = os.getenv("LINK_CHAMADA", "https://pixel-video-call.vercel.app/purchase.html")
 
 # 🔥 REDIS: Railway vai dar URL automática
-REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
+REDIS_URL = None  # Desabilitado temporariamente
 
 # MENSAGENS (igual)
 MENSAGENS = {
