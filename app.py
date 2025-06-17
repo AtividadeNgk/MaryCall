@@ -842,7 +842,8 @@ def home():
 
 def run_webhook_server():
     """Roda o servidor Flask em thread separada"""
-    webhook_app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
+    port = int(os.getenv("PORT", 5000))
+    webhook_app.run(host='0.0.0.0', port=port, debug=False, use_reloader=False)
 
 def main():
     if not BOT_TOKEN or BOT_TOKEN == "SEU_TOKEN_AQUI":
