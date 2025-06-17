@@ -259,7 +259,7 @@ def executar_sequencia_pos_resposta_pagamento(user_id, chat_id):
             json={'chat_id': chat_id, 'action': 'typing'}, timeout=5)
         time.sleep(1)
         
-        pix_message = "é chave pix e-mail ta amor? o banco é no meu nome mesmo "
+        pix_message = "é chave pix e-mail ta amor? o banco é no meu nome mesmo 🥰"
         requests.post(f"{bot_url}/sendMessage", 
             json={'chat_id': chat_id, 'text': pix_message}, timeout=10)
         
